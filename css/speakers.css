@@ -1,0 +1,161 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container{
+    padding-bottom: 286px;
+}
+
+.book-ticket{
+    width: 160px;
+    border: 2px solid #4E4AFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/*------------------SPEAKERS----------*/
+
+.speakers-container-top{
+    width: 100%;
+    background-color:  #f0f0f0;
+    padding-top: 100px;
+    padding-bottom: 52px;
+}
+
+.speakers-box-top{
+    position: relative;
+}
+
+.vector1{
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+}
+
+.vector2{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+}
+
+.vector3{
+    position: absolute;
+    right: 0;
+}
+
+.small{
+    bottom: -16px;
+}
+
+.speakers-box-bottom h4{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #121043;
+    margin:0;
+    margin-top: 46px;
+}
+
+.speakers-box-bottom .small-title{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.job{
+    display: flex;
+}
+
+.job p:nth-child(1){
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121043;
+    border-right: 1px solid #121043;
+    padding-right: 10px;
+}
+
+.job p:nth-child(2){
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #00EBDD;
+    padding-left: 10px;
+}
+
+.speakers-container-bottom{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.flex-container-middle, .flex-container-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.speakers-box-top h2{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    right: -31px;
+    top: 75px;
+}
+ 
+/*-------------CONFERENCE------------*/
+
+.conference-container{
+    width: 100%;
+    background-color: #4E4AFF;
+    padding-top: 78px;
+    padding-bottom: 79px;
+}
+
+.conference-content{
+    text-align: center;
+}
+
+.conference-content h2{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 52px;
+    color: #fff;
+    margin:0;
+}
+
+.conference-button{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

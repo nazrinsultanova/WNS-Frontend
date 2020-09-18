@@ -1,0 +1,123 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-section-container{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-top h2{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #121043;
+}
+
+.content-top p{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 170%;
+    background: rgba(18,16,67, 0.05);
+    padding: 30px;
+    color: #121043;
+    opacity: 0.75;
+}
+
+.content-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-bottom-left, .content-bottom-right{
+    width: 540px;
+}
+
+.content-bottom-left h3, .content-bottom-right h3{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170%;
+    color: #121043;
+}
+
+.content-bottom-left p, .content-bottom-right p{
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+    color: #121043;
+    opacity: 0.75;
+}
+
+
+/*----------------FEATURES-SECOND---------*/
+
+.features-second-container{
+    width: 100%;
+    height: 100%;
+    background: #4E4AFF;
+    padding-bottom: 62px;
+    padding-top: 73px;
+}
+
+.about-item-box{
+    background-image: url(../images/Rectangle\ 203.png);
+    width: 255px;
+    height: 255px;
+    text-align: center;
+    margin: 0;
+    padding-top: 63px;
+    box-sizing: border-box;
+}
+
+.about-item-box:hover{
+    background-image: url(../icons/hover.png);
+}
+
+.about-item-box:hover h2{
+    text-shadow: 0px 2px 0px #00EBDD;
+}
+
+.about-item-box h4{
+    font-family: Encode Sans;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.about-item-box h2{
+    font-family: Encode Sans;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+} 
+
+.features-button{
+    border: 2px solid #FFFFFF;
+    color: #fff;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Encode Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 110px;
+    margin-left: 435px;
+}
